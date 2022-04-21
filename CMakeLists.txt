@@ -19,6 +19,7 @@ add_message_files(
     leakageDetection.msg
     desiredStateForRobot.msg
     staterobotforevaluation.msg
+    heightStamped.msg
 #   Message1.msg
 #   Message2.msg
 )
