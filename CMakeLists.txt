@@ -33,6 +33,7 @@ add_service_files(
     lightDensity0to10.srv
     resetekf.srv
     saveGraph.srv
+    restartSonarService.srv
 )
 
 #add_service_files(DIRECTORY srv FILES AddTwoInts.srv)
