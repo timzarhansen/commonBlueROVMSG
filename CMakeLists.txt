@@ -20,6 +20,7 @@ add_message_files(
     desiredStateForRobot.msg
     staterobotforevaluation.msg
     heightStamped.msg
+    stateOfBlueRov.msg
 #   Message1.msg
 #   Message2.msg
 )
