@@ -1,4 +1,4 @@
-Header header            #header info
+uint64 timestamp
 float32 angle               # the measurement angle [rad]
 uint8 gain  # Sonar Gain
 uint16 number_of_samples 

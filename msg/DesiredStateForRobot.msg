@@ -1,0 +1,9 @@
+uint64 timestamp
+float64 desired_x_thrust
+float64 desired_y_thrust
+float64 desired_roll
+float64 desired_pitch
+float64 desired_yaw
+float64 desired_height
+bool hold_position
+
