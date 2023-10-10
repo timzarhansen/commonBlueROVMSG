@@ -12,41 +12,8 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
-
-
-
-## System dependencies are found with CMake's conventions
-# find_package(Boost REQUIRED COMPONENTS system)
-
-## Generate messages in the 'msg' folder
-#add_message_files(
-#    FILES
-#    LeakageDetection.msg
-#    DesiredStateForRobot.msg
-#    StateRobotForEvaluation.msg
-#    HeightStamped.msg
-#    StateOfBlueRov.msg
-#    SonarEcho2.msg
-##   Message1.msg
-##   Message2.msg
-#)
-#add_message_files(DIRECTORY msg FILES Num.msg)
-
-
-## Generate services in the 'srv' folder
-#add_service_files(
-#    FILES
-#    CameraAngle.srv
-#    LightDensity.srv
-#    ResetEkf.srv
-#    SaveGraph.srv
-#    RestartSonarService.srv
-#)
-
-#add_service_files(DIRECTORY srv FILES AddTwoInts.srv)
-
 ## Generate added messages and services with any dependencies listed here
-rosidl_generate_interfaces( ${PROJECT_NAME}
+rosidl_generate_interfaces( commonbluerovmsg
     "msg/LeakageDetection.msg"
     "msg/DesiredStateForRobot.msg"
     "msg/StateRobotForEvaluation.msg"
